@@ -146,12 +146,13 @@ text-align: center;
  background: #eeeeee;
  height: 70vh;
 }
-.contact-us-bg2{
- background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650401309/work%20images/ovGrEUgrkyE.png);
- background-position: center;
+
+.contact-us-bg{
+ background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650401199/work%20images/Image_1.png);
+background-position:center;
  background-size: cover;
- width: 50%;
-  height: 40vh;
+ width:50%;
+ height: 40vh;
 }
 
 .contact-flexbox{
