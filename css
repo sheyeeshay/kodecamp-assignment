@@ -37,6 +37,31 @@
   color: #ffff;
   font-size: 22px;
 }
+
+.flex{
+  display: flex;
+}
+.process-quote{
+  width: 45%;
+  margin: 0 auto;
+}
+.text-box h2{
+  padding-bottom: 10px;
+  font-size: 25px;
+}
+.text-box p{
+   color: #808080;
+  font-size: 20px;
+}
+
+.img-box{
+  width: 50%;
+  margin-right: 20px;
+}
+.process-img{
+  width: 50px;
+}
+
 .dotted-straight-line{
  height: 80px;
  border-left: 2px dotted #fd5602;
@@ -61,6 +86,46 @@ text-align: center;
  padding-top: 10px;
  margin: 0 auto 40px auto ;
 }
+
+.flex-body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 80%;
+ margin: auto;
+}
+.flex-box{
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+   height: 180px;
+   width:  180px;
+   text-align: center;
+   color: black;
+   margin-right: 1%;
+   margin-bottom: 1%;  
+   background-color: #ffffff;
+}
+
+.flex-box-selected{
+ background-color: #dd571c;
+ color: #ffffff;
+  font-weight: bold;
+  width: 180px;
+  height: 180px;
+  padding-top: 40px;
+  padding-left: 20px;
+  text-align: center;
+}
+.flex-box p{
+  padding-top: 5px;
+}
+.flex-box:hover{
+ background-color: #dd571c;
+ color: #ffffff;
+ font-weight: bold;
+}
+.offer-link{
   display:flex;
   justify-content: flex-end;
 }
@@ -81,7 +146,6 @@ text-align: center;
  background: #eeeeee;
  height: 70vh;
 }
-}
 .contact-us-bg2{
  background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650401309/work%20images/ovGrEUgrkyE.png);
  background-position: center;
@@ -90,6 +154,19 @@ text-align: center;
   height: 40vh;
 }
 
+.contact-flexbox{
+ margin-left: 35%;
+  height: 40vh;
+   width: 107%;
+  background-color: #dd571c;
+}
+.contact-text h4{
+  padding-top: 20px;
+  text-align: center;
+  margin-right: 3px;
+  margin-left: 3px;
+  width: 55%;
+  color: #ffffff;
   font-size: 18px;
 }
 .black-btn{
