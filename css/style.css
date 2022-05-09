@@ -57,7 +57,7 @@
   background-image: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650365219/work%20images/bg-image.png); 
  background-size: cover;
  background-position: center;
-min-height: 65vh;
+min-height: 50vh;
 width: 55%
 }
 #hero-section, #quote-section{
