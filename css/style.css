@@ -124,6 +124,7 @@ width: 55%
 #quote-section .right-quote-section h3{
   font-size: 46px;
   margin-bottom: 30px;
+  margin-left: 20px;
 }
 #quote-section .right-quote-section input{
   width: 100%;
