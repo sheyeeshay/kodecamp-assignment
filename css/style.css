@@ -8,7 +8,144 @@
  width: 80%;
  margin: 0 auto;
 }
+ .main-header{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+}
 
+.right-section ul{
+  list-style: none;
+  display: flex;
+}
+
+.right-section{
+ display: flex;
+ align-items: center;
+}
+
+.right-section ul li{
+ margin-right: 20px;
+}
+
+.right-section ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+
+.road-assistance{
+  display: flex;
+  padding-left: 20px;
+}
+
+.right-section .navigation{
+  border-right: 2px solid #ccc
+}
+
+.road-assistance .icon{
+  margin-right: 10px;
+}
+
+.flex{
+  display: flex;
+}
+ #hero-section .text-section{
+ width: 45%; 
+}
+ #hero-section .image-section{
+  background-image: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650365219/work%20images/bg-image.png); 
+ background-size: cover;
+ background-position: center;
+min-height: 65vh;
+width: 55%
+}
+#hero-section, #quote-section{
+ padding: 75px 0;
+}
+.text-section h1{
+ font-size: 64px;
+}
+.time-section{
+  display: flex;
+  margin-top: 30px;
+ align-items: center;
+}
+.time-section img{
+  width: 100%;
+}
+
+.text-section .image-box{
+ width: 10%;
+ margin-right: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.text-section .time-text{
+ width: 85%;
+}
+.light-grey{
+ color: #939191;
+}
+ /* quote section */
+#quote-section{
+  background: #eeeeee;
+}
+
+#quote-section .left-section, #quote-section .right-quote-section{
+  width: 47%;
+}
+#quote-section ul{
+ list-style: none;
+}
+#quote-section ul li{
+ margin-bottom: 20px;
+}
+#quote-section .left-section h2{
+  margin-bottom: 30px;
+  font-size: 58px;
+}
+#quote-section .left-section .image-box{
+ width: 8%;
+ margin-right: 10px;
+}
+#quote-section .left-section .text-box{
+ width: 60%;
+}
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+#quote-section .left-section .text-box h5{
+ font-size: 24px;
+ margin-bottom: 5px;
+}
+#quote-section .right-quote-section h3{
+  font-size: 46px;
+  margin-bottom: 30px;
+}
+#quote-section .right-quote-section input{
+  width: 100%;
+   padding: 20px;
+   margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+.form{
+  margin-top: 20px;
+}
+ .know-more{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+input:focus{
+    border-color: #f66539;
+    outline: 0;
+}
+ /* style process section */
 .process-section{
  padding: 80px 0;
 }
@@ -33,9 +170,10 @@
   display: inline-block;
   padding: 20px 40px;
   margin-top: 50px;
-  margin-right: 5px;
+  margin-right: 15px;
   color: #ffff;
   font-size: 22px;
+  border: none;
 }
 
 .flex{
