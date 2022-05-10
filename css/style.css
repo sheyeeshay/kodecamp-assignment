@@ -432,3 +432,134 @@ padding-left: 5px;
   padding: 10px;
   text-align:center;
 }
+
+/*freq ask question section*/
+
+#freq-ask-ques{
+ background: #eeeeee;
+ padding: 80px 0;
+ min-height: 100vh;
+}
+#freq-ask-ques .container{
+ width: 60%;
+ margin: 0 auto;
+}
+#freq-ask-ques h3{
+ font-size: 41px;
+ text-align: center;
+ padding-bottom: 70px;
+}
+.faq-box1{
+  background: #ffffff;
+ width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 5px;
+} 
+.faq-text h6{
+  font-size: 24px;
+  font-weight: 350;
+   font-family: sans-serif;
+}
+#freq-ask-ques .faq-box1 .faq-text p{
+ line-height: 30px;
+  font-size: 20px;
+  color: grey;
+   margin-top: 7px;
+}
+#freq-ask-ques .faq-box2{
+ background: #ffffff;
+ width: 100%;
+  justify-content: space-between;
+  height: 60px;
+  padding: 45px;
+  align-items: center;
+  margin: 5px;
+}
+#freq-ask-ques .faq-box1 .faq-img img{
+  width: 90%;
+  margin-bottom: 70px;
+  margin-left: 15px;
+}
+#freq-ask-ques .faq-box2 .faq-img img{
+ width: 40px;
+}
+
+ /* get in touch service*/
+
+#service-section{
+ background: #1e1b1b;
+  padding: 80px 0;
+  opacity: 0.97;
+  height: 70vh;
+}
+/*#service-section .container
+ width: 80%;
+ margin: 0 auto;
+}*/
+
+#service-section .service-body{
+ width: 100%;
+ justify-content: space-between;
+}
+#service-section .service-left-section{
+ width: 40%;
+}
+#service-section .service-left-section h3{
+ color: #ffffff;
+ font-size: 32px;
+ margin-top: 30px;
+ margin-bottom: 70px;
+ letter-spacing: -0.02em;
+}
+#service-section .service-left-section img{
+ margin-right: 20px;
+}
+#service-section .service-right-section{
+ width: 40%;
+ padding-top: 20px;
+}
+#service-section .service-right-section .right-text{
+ padding-bottom: 10px;
+}
+#service-section .service-right-section .right-text p{
+font-size:20px;
+  color:#ffffff;
+  Opacity:0.5;
+}
+#service-section .service-right-section .right-text h6{
+ color: #ffffff;
+ font-size: 16px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: -0.05em;
+}
+#service-section .footer{
+ width: 100%;
+ height: 20vh;
+ background: #000000;
+ margin: 0 auto;
+ justify-content: space-between;
+  align-items: center;
+ padding: 20px 140px;
+}
+#service-section .footer-text ul{
+ list-style: none;
+ display: flex
+}
+#service-section .footer-text ul li a{
+ text-decoration: none;
+ color: #ffffff;
+}
+#service-section .footer-text ul li{
+ margin-right: 20px;
+ font-size: 15px;
+}
+#service-section .footer p{
+ color: #939191;
+ font-size: 15px;
+}
+#service-section .footer .footer-logo{
+ margin-right: 30px;
+}
