@@ -563,9 +563,9 @@ font-size:20px;
  /*mobile view */
  
 @media (max-width: 426px) {
-  .main-header{
+ .main-header{
   flex-direction: column;
-   align-items: flex-start;
+  align-items: flex-start;
 }
   .right-section .navigation ul{
    flex-direction: column;
