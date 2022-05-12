@@ -454,7 +454,7 @@ padding-left: 5px;
  width: 100%;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
   margin: 5px;
 } 
 .faq-text h6{
@@ -472,7 +472,6 @@ padding-left: 5px;
  background: #ffffff;
  width: 100%;
   justify-content: space-between;
-  height: 60px;
   padding: 45px;
   align-items: center;
   margin: 5px;
