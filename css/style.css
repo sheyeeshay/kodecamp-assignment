@@ -40,7 +40,7 @@
 }
 
 .right-section .navigation{
-  border-right: 2px solid #ccc
+  border-right: 2px solid #ccc; 
 }
 
 .road-assistance .icon{
@@ -50,6 +50,41 @@
 .flex{
   display: flex;
 }
+
+.process-section{
+ padding: 80px 0;
+}
+
+.process-text{
+ width: 45%;
+ margin: 0 auto;
+}
+.process-text h1{
+ padding-top: 20px;
+ margin-bottom: 30px;
+ font-size: 48px;
+}
+.process-text p{
+ color: #808080;
+ font-size: 20px;
+}
+.orange-btn{
+  background: #ff8303;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 40px;
+  margin-top: 50px;
+  margin-right: 15px;
+  color: #ffff;
+  font-size: 22px;
+  border: none;
+}
+
+.flex{
+  display: flex;
+}
+
  #hero-section .text-section{
  width: 45%; 
 }
@@ -57,7 +92,7 @@
   background-image: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650365219/work%20images/bg-image.png); 
  background-size: cover;
  background-position: center;
-min-height: 50vh;
+ height: 100vh;
 width: 55%
 }
 #hero-section, #quote-section{
@@ -72,7 +107,7 @@ width: 55%
  align-items: center;
 }
 .time-section img{
-  width: 100%;
+  width: 80%;
 }
 
 .text-section .image-box{
@@ -147,39 +182,6 @@ input:focus{
     outline: 0;
 }
  /* style process section */
-.process-section{
- padding: 80px 0;
-}
-
-.process-text{
- width: 45%;
- margin: 0 auto;
-}
-.process-text h1{
- padding-top: 20px;
- margin-bottom: 30px;
- font-size: 48px;
-}
-.process-text p{
- color: #808080;
- font-size: 20px;
-}
-.orange-btn{
-  background: #ff8303;
-  border-radius: 12px;
-  text-decoration: none;
-  display: inline-block;
-  padding: 20px 40px;
-  margin-top: 50px;
-  margin-right: 15px;
-  color: #ffff;
-  font-size: 22px;
-  border: none;
-}
-
-.flex{
-  display: flex;
-}
 .process-quote{
   width: 45%;
   margin: 0 auto;
@@ -187,6 +189,7 @@ input:focus{
 .text-box h2{
   padding-bottom: 10px;
   font-size: 25px;
+  margin-right: 20px;
 }
 .text-box p{
    color: #808080;
@@ -204,7 +207,7 @@ input:focus{
 .dotted-straight-line{
  height: 80px;
  border-left: 2px dotted #fd5602;
- margin-left: 25px;
+ margin-left: 40px;
  margin-bottom: 20px;
  margin-top: -80px;
 }
@@ -295,7 +298,10 @@ background-position:center;
 }
 
 .contact-flexbox{
- margin-left: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 35%;
   height: 40vh;
    width: 107%;
   background-color: #dd571c;
@@ -354,7 +360,7 @@ background-position:center;
  /* brands we serve section */
 .brands-served h5{
  text-align: center;
-  font-size: 25px;
+  font-size: 45px;
   padding-top: 60px;
   padding-bottom: 20px;
 }
@@ -363,8 +369,15 @@ background-position:center;
 }
 .brand-div{
  display: flex;
+ align-items: center;
  justify-content: center;
- width: 75%
+ width: 70%;
+}
+
+.brand-img{ 
+  display: flex;
+   align-items: center;
+  justify-content: center;
 }
 
 /*customer review */
@@ -388,7 +401,7 @@ background-position:center;
  background: #ffffff;
  width: 49%;
  height: 350px;
- padding: 25px;
+ padding-left: 25px;
 }
 .profile{
  margin-top: 30px;
@@ -407,14 +420,14 @@ background-position:center;
 }
 #customers-review .review-text{
   width: 80%;
-  padding: 10px;
+  padding: 12px;
 }
 #customers-review .review-text p{
  font-size: 20px;
  color: #939191;
 }
 #customers-review .review-text h5{
-font-size: 15px;
+font-size: 17px;
 padding-left: 5px;
 }
  #customers-review .link{
@@ -505,9 +518,9 @@ padding-left: 5px;
 }
 #service-section .service-left-section h3{
  color: #ffffff;
- font-size: 32px;
- margin-top: 30px;
- margin-bottom: 70px;
+ font-size: 40px;
+ margin-top: 40px;
+ margin-bottom: 50px;
  letter-spacing: -0.02em;
 }
 #service-section .service-left-section img{
@@ -518,7 +531,9 @@ padding-left: 5px;
  padding-top: 20px;
 }
 #service-section .service-right-section .right-text{
+  margin-top: 30px;
  padding-bottom: 10px;
+ margin-bottom: 30px;
 }
 #service-section .service-right-section .right-text p{
 font-size:20px;
@@ -653,7 +668,7 @@ font-size:20px;
     opacity: 0.7;
     padding: 15px;
 }
-#offer-section .flex-wrap{
+#offer-section .flex{
    flex-wrap: wrap;
 }
   #offer-section .flex-box{
