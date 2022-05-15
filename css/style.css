@@ -838,6 +838,11 @@ font-size:20px;
 .text-section h1{
    font-size: 30px;
 }
+
+  #hero-section .image-section{
+   margin-left: 20px;
+}
+
   .justify-between{
   justify-content: space-between;
 }
