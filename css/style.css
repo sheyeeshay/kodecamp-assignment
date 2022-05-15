@@ -631,8 +631,8 @@ font-size:20px;
    width: 10%;
 }
 
-  #quote-section .right-quote-section .input-box{
-    margin-right: 10px;
+  #quote-section .right-quote-section .input{
+    padding-left: 15px;
 }
 
   #quote-section .left-section .text-box{
@@ -744,23 +744,30 @@ font-size:20px;
     margin-left: 30px;
   }
   #brands-section .brands-served h5{
- margin-top: 30px;
+   margin-top: 30px;
     font-size: 45px;
 }
   #customers-review{
    width: 100%;
 }
   #customers-review h3{
-    font-size: 27px;
+    font-size: 20px;
     margin-top: 10px;
 }
   #customers-review .review-box{
-  margin-top: 20px;
+    width: 100%
+   margin-top: 20px;
+}
+  #customers-review .review-text p{
+   font-size: 15px;
+}
+ #customers-review .review-box p{
+  font-size: 15px; 
+ line-height: 35px;
 }
   .reviews{
     flex-direction: column;
     justify-content: space-between;
-    width: 45rem; 
   }
 .cir{
     margin-top: 20px;
@@ -865,6 +872,20 @@ font-size:20px;
  #offer-section .flex-box{
    width: 80%;
 }
+
+.brands-served h5{
+ text-align: center;
+  font-size: 25px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  }
+ 
+
+  #brands-section .brand-div .brand-img img{
+    width: 100%; 
+   
+  }
+
 
   #freq-ask-ques .container{
    width: 80%;
