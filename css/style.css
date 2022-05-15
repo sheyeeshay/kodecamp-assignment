@@ -826,6 +826,9 @@ font-size:20px;
  
 @media screen and (max-width: 768px) {
   
+   .main-header .logo{
+   Padding-right: 16px;
+}
   .road-assistance{
    display: none;
 }
