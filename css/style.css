@@ -631,8 +631,8 @@ font-size:20px;
    width: 10%;
 }
 
-  #quote-section .right-quote-section .input{
-    margin-left: 25px;
+  #quote-section .right-quote-section .input-box{
+    margin-right: 10px;
 }
 
   #quote-section .left-section .text-box{
