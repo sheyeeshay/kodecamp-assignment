@@ -630,6 +630,11 @@ font-size:20px;
   #quote-section .left-section .image-box{
    width: 10%;
 }
+
+  #quote-section .right-quote-section .input{
+    margin-left: 25px;
+}
+
   #quote-section .left-section .text-box{
     width: 80%;
  }
@@ -755,7 +760,7 @@ font-size:20px;
   .reviews{
     flex-direction: column;
     justify-content: space-between;
-    width: 200%; 
+    width: 45rem; 
   }
 .cir{
     margin-top: 20px;
@@ -819,7 +824,7 @@ font-size:20px;
 
 /*tablet view */
  
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 768px) {
   
   .road-assistance{
    display: none;
@@ -885,7 +890,7 @@ font-size:20px;
     #service-section .footer-logo{ 
    margin-top: 25px;
 }
-   #service-section .footer-text ul a{
+   #service-section .footer Fg-text ul a{
     display: block;
    margin-top: 10px;
 }
