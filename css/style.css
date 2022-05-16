@@ -299,15 +299,15 @@ background-repeat: no-repeat
 }
 
 .contact-flexbox{
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 40vh;
-   width: 60%;
+   width: 100%;
   background-color: #dd571c;
 }
 .contact-text h4{
-  padding-top: 20px;
+  padding-top: 15px;
+  padding-left: 7px;
   text-align: center;
   margin-right: 3px;
   margin-left: 3px;
@@ -331,7 +331,7 @@ background-repeat: no-repeat
  background-position: center;
  background-size: cover;
  background-repeat: no-repeat;
- width: 60%;
+ width: 80%;
   height: 40vh;
 }
 
@@ -339,6 +339,7 @@ background-repeat: no-repeat
     display: flex;
    justify-content: space-between;
     width: 80%;
+    padding-left: 25px;
 }  
 .ratings{
    margin-top: 20px;
@@ -882,6 +883,17 @@ font-size:20px;
 } 
  #offer-section .flex-box{
    width: 80%;
+}
+
+    .ratings-amount{
+    
+    text-align: center;
+     padding-bottom: 3px;
+    font-size: 25px;
+    width: 100%;
+}
+  .ratings p{
+   font-size: 15px;
 }
 
 .brands-served h5{
