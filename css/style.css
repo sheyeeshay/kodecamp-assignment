@@ -882,11 +882,25 @@ font-size:20px;
    Padding-left: 15px;
 } 
  #offer-section .flex-box{
-   width: 80%;
+   width: 150px;
 }
 
+ #offer-section .flex-selected-box{
+   width: 150px;
+}
+      #get-in-touch .contact-text h4{
+      margin-left: 15px;
+     font-size: 20px;
+     letter-spacing: -0.05em;
+     padding-top: 25px;
+}
+    .black-btn{
+   margin-top: 15px;
+   padding: 5px 9px;
+    margin-left: 45px;
+   border: 5px;
+}
     .ratings-amount{
-    
     text-align: center;
      padding-bottom: 3px;
     font-size: 25px;
