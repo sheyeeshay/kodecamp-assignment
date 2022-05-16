@@ -631,8 +631,8 @@ font-size:20px;
    width: 10%;
 }
 
-  #quote-section .right-quote-section .input{
-    padding-left: 15px;
+  #quote-section .right-quote-section .input-box{
+    padding-left: 30px;
 }
 
   #quote-section .left-section .text-box{
@@ -674,19 +674,16 @@ font-size:20px;
     padding: 15px;
 }
 #offer-section .flex{
-   flex-wrap: wrap;
+   flex-direction : column;
 }
   #offer-section .flex-box{
-   width: 110%;
    margin-right: 20px;
    margin-bottom: 10px;
    padding: 35px;
    
 }
   #offer-section .flex-box-selected{
-  width: 93%;
   padding: 35px;
-  margin-bottom: 10px;
 }
   #offer-section .flex-box-selected p{
   font-size: 18px;
@@ -755,7 +752,6 @@ font-size:20px;
     margin-top: 10px;
 }
   #customers-review .review-box{
-    width: 100%
    margin-top: 20px;
 }
   #customers-review .review-text p{
@@ -768,6 +764,7 @@ font-size:20px;
   .reviews{
     flex-direction: column;
     justify-content: space-between;
+    width: 45rem;
   }
 .cir{
     margin-top: 20px;
@@ -883,7 +880,7 @@ font-size:20px;
 
   #brands-section .brand-div .brand-img img{
     width: 100%; 
-   
+    align-items: center;
   }
 
 
