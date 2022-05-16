@@ -291,7 +291,7 @@ text-align: center;
 
 .contact-us-bg{
  background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650401199/work%20images/Image_1.png);
-background-position: left;
+background-position: center;
 background-repeat: no-repeat
  background-size: cover;
  width:50%;
@@ -680,10 +680,12 @@ font-size:20px;
    margin-right: 20px;
    margin-bottom: 10px;
    padding: 35px;
+    width: 100%;
    
 }
   #offer-section .flex-box-selected{
   padding: 35px;
+   width: 100%;
 }
   #offer-section .flex-box-selected p{
   font-size: 18px;
