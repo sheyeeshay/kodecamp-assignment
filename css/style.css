@@ -686,7 +686,7 @@ font-size:20px;
 }
   #offer-section .flex-box-selected{
   padding: 35px;
-   width: 100%;
+   width: 80%;
 }
   #offer-section .flex-box-selected p{
   font-size: 18px;
@@ -711,9 +711,9 @@ font-size:20px;
   font-size: 20px;
 }
 #get-in-touch .contact-text h4{
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 45px;
-  padding-top: 5px;
+  padding-top: 45px;
 }
   .black-btn{
  padding: 5px 9px;
