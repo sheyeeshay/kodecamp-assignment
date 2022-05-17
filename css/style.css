@@ -659,7 +659,7 @@ font-size:20px;
 }
 
   .process-section .process-quote .text-box{
-    margin-right: 20%;
+    margin-right: 25%;
     padding-top: 5px;
     
 }
@@ -673,9 +673,9 @@ font-size:20px;
   .process-section .process-quote .text-box h2{
     padding-top: 0;
 }
-    /*.dotted-straight-line{
-   margin-right: 8px;
-}*/
+    .dotted-straight-line{
+   margin-left: 5px;
+}
    
   #offer-section .offer-header h3{
    width: 100%;
@@ -768,7 +768,9 @@ font-size:20px;
 
   #brands-section .brand-div{
    flex-direction: column;
-    margin-right: 35px;
+    padding-right: 35px;
+    justify-content: center;
+     align-item: center
   }
   #brands-section .brands-served h5{
    margin-top: 30px;
