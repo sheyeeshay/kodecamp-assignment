@@ -673,9 +673,9 @@ font-size:20px;
   .process-section .process-quote .text-box h2{
     padding-top: 0;
 }
-    .dotted-straight-line{
+    /*.dotted-straight-line{
    margin-right: 8px;
-}
+}*/
    
   #offer-section .offer-header h3{
    width: 100%;
@@ -727,7 +727,7 @@ font-size:20px;
 #get-in-touch .contact-text h4{
   font-size: 25px;
   margin-left: 45px;
-  padding-top: 20%;
+  padding-top: 60%;
   justify-content: center;
   align-items: center 
 }
@@ -738,7 +738,7 @@ font-size:20px;
 }
   .ratings .flex-property{
  width: 100%;
-  flex-direction: row;
+ flex-direction: row;
  margin-right: 20px;
  padding-top: 5px;
  align-items: center; 
@@ -768,7 +768,7 @@ font-size:20px;
 
   #brands-section .brand-div{
    flex-direction: column;
-    margin-left: 25px;
+    margin-right: 35px;
   }
   #brands-section .brands-served h5{
    margin-top: 30px;
