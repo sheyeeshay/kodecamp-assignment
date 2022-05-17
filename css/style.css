@@ -653,6 +653,17 @@ font-size:20px;
    width: 100%;
    font-size: 35px;
 }
+
+.process-section .orange-btn{
+ padding: 20px;
+}
+
+  .process-section .process-quote .text-box{
+    padding-right: 80px;
+    padding-top: 10px;
+    border: 1px solid red;
+}
+
   .process-section .process-text p{
     width: 100%;
 }
@@ -663,7 +674,7 @@ font-size:20px;
     padding-top: 0;
 }
     .dotted-straight-line{
-   margin-left: 8px;
+   margin-right: 10px;
 }
    
   #offer-section .offer-header h3{
@@ -715,7 +726,7 @@ font-size:20px;
 }
 #get-in-touch .contact-text h4{
   font-size: 25px;
-   justify-content: center;
+  justify-content: center;
    align-items: center;
   margin-left: 45px;
   padding-top: 45px;
@@ -926,7 +937,7 @@ font-size:20px;
 
   #brands-section .brand-div .brand-img img{
     width: 100%; 
-    align-items: center;
+    margin-left: 150%; 
   }
 
 
@@ -947,24 +958,15 @@ font-size:20px;
   width: 60%;
   margin-bottom: 20px;
 }
-    #service-section .service-body{
-  flex-direction: column;
-}
+
   
   #service-section .footer-text ul{
-   flex-direction: column;
+  
    margin-top: 10px;
    margin-bottom: 10px;
 }
-   #service-section .footer{
-   flex-direction: column;
-    align-items: flex-start;
-} 
-    #service-section .footer-logo{ 
-   margin-top: 25px;
-}
-   #service-section .footer Fg-text ul a{
-    display: block;
+
+   #service-section .footer-text ul a{
    margin-top: 10px;
 }
 
