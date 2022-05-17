@@ -773,18 +773,19 @@ font-size:20px;
 }
   #customers-review .review-box{
    margin-top: 20px;
+   width: 90%;
+   margin-left: 14px;
 }
   #customers-review .review-text p{
    font-size: 15px;
 }
  #customers-review .review-box p{
   font-size: 15px; 
- line-height: 35px;
+ line-height: 25px;
 }
   .reviews{
     flex-direction: column;
-    justify-content: space-between;
-    width: 45rem;
+    justify-content: space-between; 
   }
 .cir{
     margin-top: 20px;
