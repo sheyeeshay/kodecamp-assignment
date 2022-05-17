@@ -674,7 +674,7 @@ font-size:20px;
     padding-top: 0;
 }
     .dotted-straight-line{
-   margin-left: 5px;
+   margin-left: 40px;
 }
    
   #offer-section .offer-header h3{
@@ -726,10 +726,8 @@ font-size:20px;
 }
 #get-in-touch .contact-text h4{
   font-size: 25px;
-  margin-left: 45px;
-  padding-top: 60%;
-  justify-content: center;
-  align-items: center 
+  margin: 0 auto;
+  padding-top: 70px;
 }
   .black-btn{
  padding: 5px 9px;
@@ -768,9 +766,7 @@ font-size:20px;
 
   #brands-section .brand-div{
    flex-direction: column;
-    padding-right: 35px;
-    justify-content: center;
-     align-item: center
+    margin: 0 auto;
   }
   #brands-section .brands-served h5{
    margin-top: 30px;
@@ -825,7 +821,7 @@ font-size:20px;
    font-size: 13px;
 }
   #freq-ask-ques .faq-box1 .faq-img img{
-   width: 30%;
+   width: 25%;
    margin-top:40px;
    margin-right: 20px;
 }
@@ -869,7 +865,7 @@ font-size:20px;
   .road-assistance{
    display: none;
 }
-  .container{
+  .hero-section .container{
    width: 90%;
  }
 .text-section h1{
