@@ -659,9 +659,9 @@ font-size:20px;
 }
 
   .process-section .process-quote .text-box{
-    padding-right: 80px;
-    padding-top: 10px;
-    border: 1px solid red;
+    margin-right: 20%;
+    padding-top: 5px;
+    
 }
 
   .process-section .process-text p{
@@ -674,7 +674,7 @@ font-size:20px;
     padding-top: 0;
 }
     .dotted-straight-line{
-   margin-right: 10px;
+   margin-right: 8px;
 }
    
   #offer-section .offer-header h3{
@@ -726,10 +726,10 @@ font-size:20px;
 }
 #get-in-touch .contact-text h4{
   font-size: 25px;
-  justify-content: center;
-   align-items: center;
   margin-left: 45px;
-  padding-top: 45px;
+  padding-top: 20%;
+  justify-content: center;
+  align-items: center 
 }
   .black-btn{
  padding: 5px 9px;
@@ -768,8 +768,7 @@ font-size:20px;
 
   #brands-section .brand-div{
    flex-direction: column;
-    text-align: center;
-    margin-left: 30px;
+    margin-left: 25px;
   }
   #brands-section .brands-served h5{
    margin-top: 30px;
@@ -888,6 +887,11 @@ font-size:20px;
   #quote-section .left-section .image-box{
    width: 15%;
 }
+
+   #quote-section .right-quote-section .input-box{
+    padding-right: 30px;
+}
+
   #quote-section .left-section .text-box{
   width: 70%;
 }
