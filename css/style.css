@@ -482,7 +482,7 @@ font-family: sans-serif;
  background: #ffffff;
  width: 80%;
   padding-left: 7px;
-  margin-left: 135px;
+  margin-left: 45px;
   align-items: center;
   margin-bottom: 10px; 
 }
@@ -494,7 +494,7 @@ font-family: sans-serif;
 }
 #freq-ask-ques .faq-box2 .faq-img img{
  width: 40px;
- margin-left: 300px;
+ margin-left: 25px;
 }
 
  /* service section*/
