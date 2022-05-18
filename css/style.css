@@ -785,8 +785,8 @@ text-align: center;
 }
    .faq-box2{
    width: 80%;
-    height: 50px;
-   margin-left: 80px;
+    height: 60px;
+   margin-left: 60px;
    margin-bottom: 10px;
 }
   .faq-text p{
@@ -801,7 +801,7 @@ text-align: center;
    font-size: 13px;
 }
   #freq-ask-ques .faq-box1 .faq-img img{
-   width: 7%;
+   width: 10%;
    margin-top: 13px;
    margin-left: 25px;
 }
