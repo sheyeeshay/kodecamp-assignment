@@ -464,6 +464,7 @@ padding-left: 5px;
   align-items: center;
   padding-left: 5px;
    margin-bottom: 5px;
+  padding-bottom: 12px;
 } 
 .faq-text h6{
   font-size: 24px;
@@ -777,13 +778,14 @@ text-align: center;
   
   .faq-box1{
    width: 100%;
-    height: 50px;
+    height: 60px;
    margin-bottom: 5px;
+   padding-bottom: 12px;
 }
    .faq-box2{
    width: 80%;
     height: 50px;
-   margin-left: 55px;
+   margin-left: 60px;
    margin-bottom: 10px;
 }
   .faq-text p{
@@ -794,7 +796,7 @@ text-align: center;
    letter-spacing: 0.03em;
 }
   .faq-text h6{
-  line-height: 30px;
+  line-height: 25px;
    font-size: 13px;
 }
   #freq-ask-ques .faq-box1 .faq-img img{
