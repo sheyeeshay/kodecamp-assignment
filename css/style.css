@@ -488,8 +488,8 @@ font-family: sans-serif;
   margin-top: 10px;
 }
 #freq-ask-ques .faq-box1 .faq-img img{
-  width: 90%;
-  margin-bottom: 70px;
+  width: 80%;
+  margin-top: 50px;
 margin-left: 15px;
 }
 #freq-ask-ques .faq-box2 .faq-img img{
@@ -778,10 +778,12 @@ text-align: center;
   
   .faq-box1{
    width: 100%;
+    height: 50px;
    padding: 1px;
 }
   #freq-ask-ques .faq-box2{ 
    width: 100%;
+    height: 50px;
    padding: 5px;
 }
   .faq-text p{
@@ -797,8 +799,8 @@ text-align: center;
 }
   #freq-ask-ques .faq-box1 .faq-img img{
    width: 35%;
-   margin-top:40px;
-   margin-right: 20px;
+   margin-top: 13px;
+   margin-left: 25px;
 }
     #freq-ask-ques .faq-box2 .faq-img img{
       width: 45%;
