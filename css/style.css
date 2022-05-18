@@ -480,6 +480,15 @@ font-family: sans-serif;
   color: grey;
    margin-top: 7px;
 }
+
+#freq-ask-ques .faq-box2{
+ background: #ffffff;
+ width: 80%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
 #freq-ask-ques .faq-box1 .faq-img img{
   width: 80%;
   margin-top: 50px;
@@ -776,7 +785,13 @@ text-align: center;
    justify-content: space-between;
    margin-bottom: 10px;
 }
-  
+   .faq-box2{
+   width: 80%;
+    height: 50px;
+   padding: 1px;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
   .faq-text p{
     display: none;
 }
