@@ -1,0 +1,963 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+ width: 80%;
+ margin: 0 auto;
+}
+ .main-header{
+ display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5px;
+   width: 100%;
+}
+.right-section ul{
+  list-style: none;
+  display: flex;
+}
+
+.right-section{
+ display: flex;
+ align-items: center;
+}
+
+.right-section ul li{
+ margin-right: 20px;
+}
+
+.right-section ul li a{
+  text-decoration: none;
+  color: #000000;
+}
+.road-assistance{
+  display: flex;
+  padding-left: 20px;
+}
+
+.right-section .navigation{
+  border-right: 2px solid #ccc; 
+}
+
+.road-assistance .icon{
+  margin-right: 10px;
+}
+.flex{
+  display: flex;
+}
+#hero-section .text-section{
+ width: 40%; 
+ justify-content: space-between;
+}
+ #hero-section .image-section{
+  background-image: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650365219/work%20images/bg-image.png); 
+ background-size: cover;
+ background-position: center;
+ min-height: 100vh;
+width: 60%
+}
+#hero-section, #quote-section{
+ padding: 75px 0;
+}
+.text-section h1{
+ font-size: 54px;
+  justify-content: space-between;
+}
+.time-section{
+  display: flex;
+  margin-top: 30px;
+ align-items: center;
+}
+.time-section img{
+  width: 80%;
+}
+.text-section .image-box{
+ width: 10%;
+ margin-right: 10px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.text-section .time-text{
+ width: 75%;
+}
+.light-grey{
+ color: #939191;
+}
+/* quote section */
+#quote-section{
+  background: #eeeeee;
+}
+
+#quote-section .left-section, #quote-section .right-quote-section{
+  width: 47%;
+}
+#quote-section ul{
+ list-style: none;
+}
+#quote-section ul li{
+ margin-bottom: 20px;
+}
+#quote-section .left-section h2{
+  margin-bottom: 30px;
+  font-size: 43px;
+}
+#quote-section .left-section .image-box{
+ width: 10%;
+ margin-right: 10px;
+}
+#quote-section .left-section .text-box{
+ width: 60%;
+}
+#quote-section .left-section .image-box img {
+    width: 100%;
+}
+
+#quote-section .left-section .text-box h5{
+ font-size: 24px;
+ margin-bottom: 5px;
+}
+#quote-section .right-quote-section h3{
+  font-size: 40px;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+#quote-section .right-quote-section input{
+  width: 100%;
+   padding: 20px;
+   margin-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
+  .form{
+  margin-top: 20px;
+}
+ .know-more{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+}
+input:focus{
+    border-color: #f66539;
+    outline: 0;
+}
+.orange-btn{
+  color: #000000;
+  background: #ff8303;
+  border-radius: 12px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 40px;
+  margin-top: 50px;
+  border: #ff8303;
+ margin-left: 10px;
+}
+/* style process section */
+
+.process-section{
+ padding: 80px 0;
+}
+
+.process-text{
+ width: 45%;
+ margin: 0 auto;
+}
+.process-text h1{
+ padding-top: 20px;
+ margin-bottom: 30px;
+ font-size: 35px;
+}
+.process-text p{
+ color: #808080;
+ font-size: 20px;
+}
+.process-quote{
+  width: 45%;
+  margin: 0 auto;
+}
+.text-box h2{
+margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.text-box p{
+   color: #808080;
+  font-size: 20px;
+}
+
+.img-box{
+  margin-right: 20px;
+}
+.process-img{
+  width: 50px;
+  margin-top: 10px;
+}
+
+.dotted-straight-line{
+height: 80px;
+ border-left: 2px dotted #fd5602;
+ margin-left: 25px;
+ margin-bottom: 20px;
+ margin-top: -80px;
+}
+/* what we offer section */
+#offer-section{
+ padding: 90px 0;
+ min-height: 100vh;
+}
+#offer-section{
+ background: #eeeeee;
+}
+#offer-section h5{
+text-align: center;
+ font-size: 25px;
+ padding-top: 50px;
+}
+
+#offer-section h3{
+ text-align: center;
+ font-size: 34px;
+ padding-top: 15px;
+  padding-bottom: 45px;
+ margin: 0 auto;
+}
+
+#offer-section .offers{
+ flex-wrap: wrap;
+  justify-content: space-between;
+ margin-top: 20px;
+  margin-bottom: 15px;
+}
+#offer-section .offers .offer-box{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+   width:  24%;
+   height: 232px;
+   text-align: center;
+   margin-bottom: 12px;  
+   background-color: #ffffff;
+}
+.offer-box p{
+  padding-top: 5px;
+}
+#offer-section .offers .offer-box:hover{
+ background-color: #dd571c;
+ color: #ffffff;
+ font-weight: bold;
+}
+.offer-link{
+  display:flex;
+  justify-content: flex-end;
+}
+.offer-link a{
+display: flex;
+ text-decoration: none;
+  color: black;
+  font-size: 23px;
+  padding-top: 10px;
+}
+.offer-link a p{
+ font-size: 23px;
+  margin-right: 10px;
+}
+.offer-link a:hover{
+ color: #dd571c;
+}
+/* get in touch section */
+#get-in-touch{
+ padding: 10px 0;
+}
+#get-in-touch{
+ background: #eeeeee;
+ min-height: 100vh;
+ width: 100%;
+}
+#get-in-touch .contact{
+   display: flex;
+}
+
+.contact-us-bg{
+ background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650401199/work%20images/Image_1.png);
+background-position: left;
+background-repeat: no-repeat;
+ background-size: cover;
+ width:20%;
+ height: 300px;
+}
+.contact-flexbox{
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+   width: 40%;
+  background-color: #dd571c;
+}
+.contact-us-bg2{
+ background: url(https://res.cloudinary.com/lovelyfin00/image/upload/v1650401309/work%20images/ovGrEUgrkyE.png);
+ background-position: center;
+ background-size: cover;
+ background-repeat: no-repeat;
+ width: 40%;
+  height: 300px;
+}
+
+.contact-text h4{
+  justify-content: center;
+  text-align: center;
+  padding-top: 70px;
+  margin-left: 50px;
+  text-align: center;
+  width: 55%;
+  color: #ffffff;
+  font-size: 30px;
+}
+.black-btn{
+  background: black;
+  text-decoration: none;
+  border-radius: 7px;
+  display: inline-block;
+  padding: 10px 15px;
+  margin-left: 45px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-size: 17px;
+}
+#get-in-touch .container{
+   width: 80%;
+  padding: 40px 0;
+}
+.flex-property{
+    display: flex;
+   justify-content: space-between;
+    
+}  
+.ratings{
+   margin-top: 20px;
+}
+.ratings-amount{
+ color: #a32cc4;
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 25px;
+}
+.ratings p{
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 18px;
+}
+.ratings-amount:hover{
+ color: #dd571c;
+}
+/* brands we serve section */
+ #brands-section .brands-served h5{
+ text-align: center;
+  font-size: 45px;
+padding-top: 70px;
+  padding-bottom: 20px;
+}
+#brands-section {
+ min-height:100vh;
+}
+#brands-section .brand-div{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 auto;
+ width: 100%;
+}
+
+.brand-img{ 
+  display: flex;
+   align-items: center;
+  justify-content: center;
+  width: ;
+}
+#customers-review{
+ padding: 80px 0;
+ background: #eeeeee;
+ min-height: 100vh;
+}
+
+#customers-review h3{
+ text-align: center;
+ font-size: 40px;
+ margin-bottom: 40px;
+}
+#customers-review .reviews {
+  display: flex;
+  justify-content: space-between;
+}
+#customers-review .review-box{
+ background: #ffffff;
+ width: 49%;
+ height: 350px;
+ padding-left: 25px;
+  border: 1px solid white;
+}
+.profile{
+ margin-top: 30px;
+ margin-bottom: 10px;
+ margin-left: 15px;
+}
+.profile img {
+  width:100%;  
+}
+#customers-review .review-box p{
+ line-height: 24px;
+  font-size: 17.5px;
+  color: #000000;
+  letter-spacing: -0.03em;
+  font-family: arial;
+}
+#customers-review .review-text{
+  width: 80%;
+  padding: 12px;
+}
+#customers-review .review-text p{
+ font-size: 20px;
+color: #939191;
+}
+#customers-review .review-text h5{
+font-size: 17px;
+padding-left: 5px;
+}
+ #customers-review .link{
+ display: flex;
+ justify-content: flex-end;
+}
+.ball{ 
+  width: 40px;
+  border: 5px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+.ball p{
+  padding-top: 10px;
+  text-align:center;
+  font-size: 40px;
+}
+/*freq ask question section*/
+
+#freq-ask-ques{
+ background: #cfd8dc;
+ Padding: 80px 0;
+ min-height: 100vh;
+}
+#freq-ask-ques .container{
+ width: 70%;
+ margin: 0 auto;
+padding: 80px 0;
+}
+#freq-ask-ques h3{
+ font-size: 41px;
+ text-align: center;
+ padding-bottom: 50px;
+}
+.faq-box1{
+  background: #ffffff;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+} 
+.faq-text h6{
+  font-size: 24px;
+  font-weight: 350;
+font-family: sans-serif;
+}
+#freq-ask-ques .faq-box1 .faq-text p{
+ line-height: 30px;
+  font-size: 20px;
+  color: grey;
+   margin-top: 7px;
+}
+#freq-ask-ques .faq-box2{
+ background: #ffffff;
+ width: 100%;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+#freq-ask-ques .faq-box1 .faq-img img{
+  width: 90%;
+  margin-bottom: 70px;
+margin-left: 15px;
+}
+#freq-ask-ques .faq-box2 .faq-img img{
+ width: 40px;
+}
+
+ /* service section*/
+
+#service-section{
+ background: #1e1b1b;
+  opacity: 0.97;
+ min-height: 50vh;
+}
+
+
+#service-section .service-body{
+ width: 100%;
+ justify-content: space-between;
+}
+#service-section .service-left-section{
+ width: 40%;
+}
+#service-section .service-left-section h3{
+ color: #ffffff;
+ font-size: 40px;
+ margin-top: 40px;
+ margin-bottom: 50px;
+ letter-spacing: -0.02em;
+}
+#service-section .service-left-section img{
+ margin-right: 20px;
+}
+#service-section .service-right-section{
+ width: 40%;
+ padding-top: 20px;
+}
+#service-section .service-right-section .right-text{
+  margin-top: 30px;
+ padding-bottom: 10px;
+ margin-bottom: 30px;
+}
+#service-section .service-right-section .right-text p{
+font-size:20px;
+  color:#ffffff;
+  Opacity:0.5;
+}
+#service-section .service-right-section .right-text h6{
+ color: #ffffff;
+ font-size: 16px;
+  font-family: sans-serif;
+  margin-bottom: 10px;
+  letter-spacing: -0.05em;
+}
+#service-section .footer{
+width: 100%;
+ background: #000000;
+ margin: 0 auto;
+ justify-content: space-between;
+  align-items: center;
+ padding: 10px 120px;
+}
+#service-section .footer-text ul{
+ list-style: none;
+ display: flex
+}
+#service-section .footer-text ul li a{
+ text-decoration: none;
+ color: #ffffff;
+}
+#service-section .footer-text ul li{
+ margin-right: 20px;
+ font-size: 15px;
+}
+#service-section .footer p{
+ color: #939191;
+ font-size: 15px;
+}
+#service-section .footer .footer-logo{
+ margin-right: 30px;
+}
+    
+/*mobile view */
+
+@media screen and (max-width: 426px) {
+ .main-header{
+  flex-direction: column;
+  align-items: flex-start;
+}
+  .right-section .navigation ul{
+   flex-direction: column;
+}
+  .right-section{
+   flex-direction: column;
+    align-items: flex-start;
+    display: none;
+}
+
+   .right-section ul li{
+   padding: 10px 0;
+   margin-right: 0;
+    width: 100%;
+}
+ .right-section .navigation{
+  border: none;
+    width: 100%;
+}
+right-section ul li a{
+   display: block;
+}
+  .road-assistance{
+   padding: 10px 0;
+}
+  .flex-sm-column{
+  flex-direction: column;
+}
+  #hero-section .image-section{
+   width: 100%;
+   order: 1;
+}
+  #hero-section .text-section{
+  width: 100%;
+ order: 2;
+}
+  .text-section h1{
+ font-size: 35px;
+ padding-top: 25px;
+}  
+  .quote-flex{
+ flex-direction: column;
+} 
+  #quote-section .left-section, #quote-section .right-quote-section{
+ width: 100%;
+}
+  #quote-section .left-section .image-box{
+   width: 10%;
+}
+
+  #quote-section .right-quote-section .input-box{
+    padding-right: 40px;
+}
+
+  #quote-section .left-section .text-box{
+    width: 80%;
+ }
+  #quote-section .left-section h2, #quote-section .right-quote-section h3{
+   font-size: 33px;
+    text-align: center;
+}
+  #quote-section .left-section{
+  margin-bottom: 40px;
+}
+  .process-section .process-text, .process-section .process-quote{
+    width: 100%;
+}
+  .process-section .process-text h1{
+   width: 100%;
+   font-size: 35px;
+}
+
+.process-section .orange-btn{
+ padding: 20px;
+ margin-bottom: 20px;
+} 
+#offer-section h5{
+text-align: center;
+ font-size: 19px;
+ padding-top: 50px;
+}
+#offer-section h3{
+text-align: center;
+ font-size: 22px;
+ padding-top: 20px;
+  padding-bottom: 45px;
+ margin: 0 auto;
+}
+   
+#offer-section .flex{
+   flex-direction : column;
+}
+ 
+  #offer-section .offers .offer-box{
+  justify-content: center;
+  align-items: center;
+   width:  80%;
+   height: 200px;
+   text-align: center;
+   margin-bottom: 12px;  
+   margin-left: 25px;
+   background-color: #ffffff;
+  }
+ #offer-section .offer-box p{
+  font-size: 18px;
+  padding-top: 8px;
+}
+  #offer-section .offer-link{
+  justify-content: flex-end;
+  text-align: center;
+  padding-top: 20px;
+}
+  #offer-section .offer-link a{
+  font-size: 15px;
+}
+  .offer-link a p{
+ font-size: 15px;
+  margin-right: 10px;
+}
+ #get-in-touch{
+   min-height: 100vh;
+}
+    #get-in-touch .contact{
+   flex-direction: column;
+}
+
+ #get-in-touch .contact-us-bg{
+    width: 100%;
+     height: 200px;
+}
+  #get-in-touch .contact-flexbox{
+    width: 100%;
+    height: 200px;
+}
+   #get-in-touch .contact-us-bg2{
+    width: 100%;
+    height: 200px;
+}
+
+  #get-in-touch .contact-text h4{
+  font-size: 20px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+  .black-btn{
+ padding: 8px 10px;
+ margin-left: 45px;
+ border: 5px;
+}
+   .ratings .flex-property{
+ flex-direction: column;
+ justify-content: center;
+ padding-top: 5px;
+ align-items: center; 
+}
+  .ratings-amount{
+    text-align: center;
+    font-size: 35px;
+   width: 100%;
+}
+  .ratings p{
+   font-size: 20px;
+   padding-bottom: 20px;
+}
+  
+  #brands-section .brand-div{
+   flex-direction: column;
+    margin: 0 auto;
+  }
+  #brands-section .brands-served h5{
+   margin-top: 30px;
+    font-size: 45px;
+} 
+  
+  #customers-review h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+  #customers-review .review-box{
+   margin-top: 20px;
+   width: 90%;
+   margin-left: 14px;
+}
+  #customers-review .review-text p{
+   font-size: 15px;
+}
+ #customers-review .review-box p{
+  font-size: 15px; 
+ line-height: 25px;
+}
+  .reviews{
+    flex-direction: column;
+    justify-content: space-between; 
+  }
+ .ball{
+    margin-top: 20px;
+    width: 40px;
+}
+  
+  .faq-box1{
+   width: 100%;
+   padding: 1px;
+}
+  #freq-ask-ques .faq-box2{ 
+   width: 100%;
+   padding: 5px;
+}
+  .faq-text p{
+    display: none;
+}
+  #freq-ask-ques h3{
+   font-size: 22px;
+   letter-spacing: 0.03em;
+}
+  .faq-text h6{
+  line-height: 30px;
+   font-size: 13px;
+}
+  #freq-ask-ques .faq-box1 .faq-img img{
+   width: 35%;
+   margin-top:40px;
+   margin-right: 20px;
+}
+    #freq-ask-ques .faq-box2 .faq-img img{
+      width: 45%;
+      margin-right: 15px;
+}
+  #service-section .service-body{
+  flex-direction: column;
+}
+ #service-section .service-right-section{
+   margin-top: 40px;
+
+}
+  #service-section .service-right-section{
+   margin-top: 40px;
+} 
+ #service-section .footer-text ul{
+   flex-direction: column;
+   margin-top: 10px;
+   margin-bottom: 10px;  
+  
+}
+  #service-section .footer-logo{ 
+   margin-top: 25px;
+}
+  #service-section .footer-text ul a{
+    display: block;
+margin-top: 10px;
+}
+  #service-section .footer{
+   flex-direction: column;
+} 
+}
+
+/*tablet view */
+ 
+@media screen and (max-width: 768px) {
+  
+   .main-header .logo{
+   Padding-right: 16px;
+}
+  .road-assistance{
+   display: none;
+}
+  .hero-section .container{
+   width: 90%;
+}
+.text-section h1{
+   font-size: 30px;
+}
+
+  #hero-section .image-section{
+   margin-left: 20px;
+   min-height: 100vh;
+}
+#hero-section .text-section h1{
+  font-size: 44px; 
+}
+.text-section .time-text{
+ width: 100%;
+}
+  .time-section img{
+  width: 150%;
+}
+.orange-btn{
+  color: #000000;
+  background: #ff8303;
+  border-radius: 8px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px 30px;
+  margin-top: 50px;
+  border: #ff8303;
+ margin-left: 10px;
+  }
+  .justify-between{
+  justify-content: space-between;
+}
+  #quote-section .left-section h2, #quote-section .right-quote-section h3{
+  font-size: 30px;
+}
+ #quote-section .left-section .image-box{
+   width: 15%;
+}
+    #quote-section .right-quote-section h3{
+    margin-top: 5px;
+    padding-left: 20px;
+  }
+  #quote-section .left-section .text-box{
+  width: 70%;
+}
+  
+  .process-section .process-quote .text-box h2{
+   padding-top: 0;
+   Padding-left: 15px;
+}  
+  .offer-link a{
+  display: flex;
+ text-decoration: none;
+color: black;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.offer-link a p{
+ font-size: 18px;
+  margin-right: 10px;
+}
+   #get-in-touch .contact-text h4{
+      margin: 0 auto;
+     font-size: 15px;
+     padding-top: 70px;
+}
+    .black-btn{
+   margin-top: 15px;
+   padding: 5px 9px;
+    margin-left: 45px;
+   border: 5px;
+font-size: 13px;
+}
+    #get-in-touch .ratings-amount{
+    text-align: center;
+     padding-bottom: 3px;
+    font-size: 25px;
+    width: 100%;
+}
+  .ratings p{
+   font-size: 15px;
+}
+ 
+#brands-section .brands-served h5{
+ text-align: center;
+  font-size: 20px;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  }
+  #brands-section .brand-div .brand-img img{
+    width: 100%; 
+    margin: 0 auto;
+  } 
+    .faq-text h6{
+  font-size: 15px;
+}
+  #freq-ask-ques .faq-box1 .faq-text p{
+  font-size: 13px;
+  line-height: 20px;
+}
+  #freq-ask-ques .faq-box2 .faq-img img{
+   width: 60%;
+}
+  #freq-ask-ques .faq-box1 .faq-img img{
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+  #service-section .footer-text ul{
+  
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+   #service-section .footer-text ul a{
+   margin-top: 10px;
+}
+}
