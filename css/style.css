@@ -467,7 +467,7 @@ padding-left: 5px;
   padding-bottom: 12px;
 } 
 .faq-text h6{
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 350;
 font-family: sans-serif;
 }
@@ -482,7 +482,7 @@ font-family: sans-serif;
  background: #ffffff;
  width: 80%;
   padding-left: 7px;
-  margin-left: 35px;
+  margin-left: 135px;
   align-items: center;
   margin-bottom: 10px; 
 }
@@ -490,10 +490,11 @@ font-family: sans-serif;
 #freq-ask-ques .faq-box1 .faq-img img{
   width: 50%;
   margin-top: 50px;
-margin-left: 15px;
+  margin-left: 25px;
 }
 #freq-ask-ques .faq-box2 .faq-img img{
  width: 40px;
+ margin-left: 300px;
 }
 
  /* service section*/
@@ -785,7 +786,7 @@ text-align: center;
    .faq-box2{
    width: 80%;
     height: 50px;
-   margin-left: 60px;
+   margin-left: 80px;
    margin-bottom: 10px;
 }
   .faq-text p{
@@ -800,7 +801,7 @@ text-align: center;
    font-size: 13px;
 }
   #freq-ask-ques .faq-box1 .faq-img img{
-   width: 10%;
+   width: 7%;
    margin-top: 13px;
    margin-left: 25px;
 }
@@ -944,15 +945,25 @@ font-size: 13px;
     .faq-text h6{
   font-size: 15px;
 }
+
+ #freq-ask-ques .faq-box2{
+  width: 80%;
+  padding-left: 7px;
+  align-items: center;
+  margin-bottom: 10px;
+  height: 54px;
+  margin-left: 75px;
+}
+
   #freq-ask-ques .faq-box1 .faq-text p{
   font-size: 13px;
   line-height: 20px;
 }
   #freq-ask-ques .faq-box2 .faq-img img{
-   width: 60%;
+   width: 7%;
 }
   #freq-ask-ques .faq-box1 .faq-img img{
-  width: 60%;
+  width: 40%;
   margin-bottom: 20px;
 }
 
